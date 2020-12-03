@@ -5,6 +5,6 @@
 
 <h3>Artist: <%= link_to @song.artist.name, artist_path(@song.artist) if @song.artist %></h3>
 
-<p><%= @post.description %></p>
+<p>Created at: <%= @song.created_at %></p>
 
-<p><%= @post.description %></p>
+<p>Updated at: <%= @song.updated_at %></p>
